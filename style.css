@@ -1,0 +1,93 @@
+body {
+
+  background-image: url("images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+section, article {
+  margin-bottom: 6em;
+}
+
+  section > :last-child, section:last-child, article > :last-child, article:last-child {
+    margin-bottom: 0;
+  }
+  #banner-wrapper {
+				padding: 25em 0;
+			}
+.h2, h2 {
+          font-size: 4rem;
+}
+.btn-group{
+  margin-bottom: 8px !important;
+}
+#banner-wrapper {
+  		position: relative;
+  		background-image: url("images/overlay.png"), url("images/overlay.png"), url("../../images/banner.jpg");
+  		background-position: top left, top left, center center;
+  		background-repeat: repeat, repeat, no-repeat;
+  		background-size: auto, auto, cover;
+  		z-index: 1;
+  	}
+    #banner {
+    		position: relative;
+    		background-color: rgba(21, 28, 23, 0.85);
+    		background-image: url("images/overlay.png"), url("images/highlight.png");
+    		background-position: top left, center center;
+    		background-size: auto, 100% 250%;
+    		background-repeat: repeat, no-repeat;
+    		text-align: center;
+    		margin: 0;
+        line-height: 1.2;
+
+        margin-bottom: 1.5rem;
+        font-weight: 1000;
+        font-size: 3rem;
+    	}
+
+    		#banner h2 {
+    			color: #fff;
+    		}
+
+    		#banner p {
+    			display: block;
+    			font-family: 'Open Sans Condensed', sans-serif;
+    			font-weight: 700;
+    			text-transform: uppercase;
+    			color: #c1841391
+    		}
+
+    		#banner .button {
+    			-moz-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+    			-webkit-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+    			-ms-transition: border-color .2s ease-in-out, color .2s ease-in-out;
+    			transition: border-color .2s ease-in-out, color .2s ease-in-out;
+    			color: #b4b7b5;
+    			background: transparent !important;
+    			border: solid 4px #575d59;
+    			border-color: rgba(87, 93, 89, 0.35);
+    			border-radius: 16px;
+    		}
+
+    			#banner .button:hover {
+    				color: #e4e7e5;
+    				border-color: rgba(87, 93, 89, 0.75);
+    			}
+
+    			#banner .button:active {
+    				color: #fff;
+    				border-color: #616763;
+    			}
+#button{
+  background-color: #383c3eab;
+  border-color: #383c3eab;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #383c3eab;
+    border-color: #383c3eab;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+    color: #c1841391;
+}
