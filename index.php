@@ -22,8 +22,18 @@
 
   </div>
 
-  <div id="fuss">
+  <div id="footer-wrapper">
+
+    <section id="footer">
+              
+
+    </section>
+
   </div>
+
+
+
+
 
 </body>
 
